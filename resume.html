@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chanchal Prajapati</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+  <link rel="stylesheet" href="./dist/output.css">
+</head>
+<style>
+    body {
+            font-family: 'Numans', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+</style>
+<body class="bg-white text-gray-900 font-roboto">
+
+    <div class="fixed top-0 left-0 w-full bg-white z-10">
+        <div class="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center py-4">
+          <div class="w-[100%] md:w-[50%] flex flex-row justify-between">
+            <div class="text-black font-semibold text-lg">
+              <!-- <img class="w-16 h-16 rounded-full" src="./img/SelfBranding.jpg"> -->
+              <p>Chanchal Prajapati</p>
+            </div>
+            <div class="md:hidden">
+              <button id="hamburger" class="text-black focus:outline-none">
+                <svg id="hamburger-icon" class="w-6 h-6 transition-all duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path id="hamburger-path" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                </svg>
+              </button>
+              <button id="close" class="text-black focus:outline-none hidden">
+                <svg class="w-6 h-6 transition-all duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div id="menu"
+        class="md:w-[30%] w-[100%] h-[100vh] md:h-auto fixed md:relative top-10 md:top-0 md:pr-0 md:right-0 md:bg-white bg-white transform -translate-x-full md:translate-x-0 transition-transform duration-300 md:flex md:justify-around space-x-4">
+        <div class="w-[100%] flex flex-col md:flex-row text-center mt-[30%] md:mt-0 md:text-center md:justify-around md:text-sm">
+          <a href="index.html" class="hover:text-[#FF4500] mt-5 md:mt-0">HOME</a>
+          <a href="about.html" class="text-black hover:text-[#FF4500] mt-7 md:mt-0">ABOUT</a>
+          <a href="resume.html" class="text-[#FF4500] hover:text-[#FF4500] mt-7 md:mt-0">RESUME</a>
+          <a href="mailto:chanchalprajapati95@gmail.com" class="text-black hover:text-[#FF4500] mt-7 md:mt-0">CONTACT</a>
+        </div>
+      </div>
+        </div>
+      </div>
+
+
+
+     /*! <div class="mt-20">
+        <img src="./img/Resume.JPG">
+      </div>
+
+      <div class="flex items-center justify-center mt-[3%]">
+        <a href="https://drive.google.com/file/d/1YNegG7lzHpUs0T6BeyRpz-qQw2Mxuv70/view?usp=sharingexport=download&id=YOUR_GOOGLE_DRIVE_FILE_ID" target = "blank" class="text-xs bg-[#FF4500] hover:bg-blue-700 text-white hover:text-white duration-300 font-normal py-2 px-5 rounded-full transition duration-300 ease-in-out transform hover:scale-105 md:text-sm shadow-xl">
+          Download Resume
+        </a>
+      </div> 
+      */
+
+  
+
+
+  <footer class="bg-[#0d0d0d] text-white md:mt-32 mt-20">
+    <div class="flex flex-col md:flex-row">
+        <div class="container mx-auto py-8 px-4 text-left">
+            <h2 class="text-xl md:text-3xl font-normal text-white md:font-bold md:mb-7 mb-4">Let's connect </h2>
+            <div class="flex justify-start space-x-4 mb-4">
+              <!-- Facebook -->
+              <a href="https://facebook.com" target="_blank" class="hover:text-[#FF4500]">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M22.676 0H1.324C.593 0 0 .593 0 1.324v21.352C0 23.407.593 24 1.324 24h11.494v-9.294H9.692v-3.62h3.126V8.41c0-3.097 1.893-4.784 4.659-4.784 1.325 0 2.462.098 2.795.142v3.24h-1.917c-1.504 0-1.795.714-1.795 1.76v2.306h3.59l-.468 3.62h-3.122V24h6.117C23.407 24 24 23.407 24 22.676V1.324C24 .593 23.407 0 22.676 0z"/>
+                </svg>
+              </a>
+              <!-- LinkedIn -->
+              <a href="https://linkedin.com" target="_blank" class="hover:text-[#FF4500]">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M22.23 0H1.77C.792 0 0 .774 0 1.725v20.55C0 23.226.792 24 1.77 24h20.46C23.208 24 24 23.226 24 22.275V1.725C24 .774 23.208 0 22.23 0zM7.19 20.452H3.746V9.015H7.19v11.437zM5.468 7.704c-1.086 0-1.963-.885-1.963-1.974 0-1.088.877-1.974 1.963-1.974 1.087 0 1.963.886 1.963 1.974 0 1.089-.876 1.974-1.963 1.974zm15.022 12.748h-3.446v-5.856c0-1.393-.029-3.188-1.945-3.188-1.946 0-2.244 1.518-2.244 3.085v5.959H9.41V9.015h3.307v1.564h.045c.46-.872 1.585-1.79 3.262-1.79 3.487 0 4.128 2.296 4.128 5.283v6.38z"/>
+                </svg>
+              </a>
+              <!-- Behance -->
+              <a href="https://behance.net" target="_blank" class="hover:text-[#FF4500]">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M9.146 10.542c0-.99-.678-1.325-1.509-1.325H5.529v2.7h2.141c.775 0 1.476-.351 1.476-1.375zM7.636 6.625H5.313v2.286h2.09c.744 0 1.347-.245 1.347-1.14 0-.834-.568-1.146-1.113-1.146zM8.13 14.71H5.42v2.828h2.778c.848 0 1.589-.358 1.589-1.447s-.782-1.381-1.658-1.381zM22.051 0H1.949C.872 0 0 .872 0 1.949v20.102C0 23.128.872 24 1.949 24h20.102C23.128 24 24 23.128 24 22.051V1.949C24 .872 23.128 0 22.051 0zM13.431 7.963h4.654v.851h-4.654v-.851zM7.791 16.869H3.313V7.121h4.424c2.112 0 3.613 1.002 3.613 3.222 0 1.52-.821 2.282-1.688 2.611v.082c.956.273 2.092.971 2.092 2.705-.001 2.264-1.871 2.128-3.963 2.128zm10.452-4.377c-.662 0-1.086.354-1.22.972h2.327c-.075-.623-.41-.972-1.107-.972zM18.652 16.128c-.878 0-1.236-.504-1.236-1.136h2.221c.007-.655-.374-1.136-1.094-1.136-.599 0-1.094.391-1.148.974h-2.216c.034-1.617 1.294-2.285 2.361-2.285 1.454 0 2.609.888 2.609 2.347-.001 1.552-1.063 2.236-2.497 2.236zM19.222 11.245c.792 0 1.217.395 1.243 1.024h-2.447c.037-.602.42-1.024 1.204-1.024zm3.885 10.806H.893V2.949h22.214v19.102zm-4.309-4.871c.711 0 1.081-.482 1.081-1.083h-2.136c.007.61.374 1.083 1.055 1.083h.153c.04 0 .086-.001.132-.001v.001z"/>
+                </svg>
+              </a>
+              <!-- Instagram -->
+              <a href="https://instagram.com" target="_blank" class="hover:text-[#FF4500]">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12 2.163c3.204 0 3.584.012 4.85.07 1.17.055 1.793.243 2.22.411.55.215.945.474 1.36.889.415.415.674.81.889 1.36.168.427.356 1.05.411 2.22.058 1.266.07 1.646.07 4.85s-.012 3.584-.07 4.85c-.055 1.17-.243 1.793-.411 2.22-.215.55-.474.945-.889 1.36-.415.415-.81.674-1.36.889-.427.168-1.05.356-2.22.411-1.266.058-1.646.07-4.85.07s-3.584-.012-4.85-.07c-1.17-.055-1.793-.243-2.22-.411-.55-.215-.945-.474-1.36-.889-.415-.415-.674-.81-.889-1.36-.168-.427-.356-1.05-.411-2.22-.058-1.266-.07-1.646-.07-4.85s.012-3.584.07-4.85c.055-1.17.243-1.793.411-2.22.215-.55.474-.945.889-1.36.415-.415.81-.674 1.36-.889.427-.168 1.05-.356 2.22-.411 1.266-.058 1.646-.07 4.85-.07zm0-2.163c-3.272 0-3.684.013-4.965.072-1.313.06-2.23.277-3.022.592-.794.316-1.47.743-2.146 1.418-.676.676-1.102 1.352-1.418 2.146-.315.792-.532 1.709-.592 3.022-.058 1.281-.072 1.693-.072 4.965s.013 3.684.072 4.965c.06 1.313.277 2.23.592 3.022.316.794.743 1.47 1.418 2.146.676.676 1.352 1.102 2.146 1.418.792.315 1.709.532 3.022.592 1.281.058 1.693.072 4.965.072s3.684-.013 4.965-.072c1.313-.06 2.23-.277 3.022-.592.794-.316 1.47-.743 2.146-1.418.676-.676 1.102-1.352 1.418-2.146.315-.792.532-1.709.592-3.022.058-1.281.072-1.693.072-4.965s-.013-3.684-.072-4.965c-.06-1.313-.277-2.23-.592-3.022-.316-.794-.743-1.47-1.418-2.146-.676-.676-1.352-1.102-2.146-1.418-.792-.315-1.709-.532-3.022-.592-1.281-.058-1.693-.072-4.965-.072zM12 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zm0 10.162a3.999 3.999 0 1 1 0-7.998 3.999 3.999 0 0 1 0 7.998zm6.406-11.845a1.44 1.44 0 1 0 0 2.88 1.44 1.44 0 0 0 0-2.88z"/>
+                </svg>
+              </a>
+              </div>
+          </div>
+        
+    </div>
+    <div class="bg-white text-black text-center text-sm font-normal">
+        <div class="py-4 pb-7">Copyright© 2024 Chanchal Prajapati All Rights Reserverd.</div>
+    </div>
+</footer>
+
+  <script>
+    var menu = document.getElementById('menu');
+    var hamburger = document.getElementById('hamburger');
+    var closeButton = document.getElementById('close');
+
+    hamburger.addEventListener('click', function () {
+      menu.classList.toggle('-translate-x-full');
+      hamburger.classList.toggle('hidden');
+      closeButton.classList.toggle('hidden');
+    });
+
+    closeButton.addEventListener('click', function () {
+      menu.classList.toggle('-translate-x-full');
+      closeButton.classList.toggle('hidden');
+      hamburger.classList.toggle('hidden');
+    });
+
+  
+  </script>
+</body>
+
+</html>
