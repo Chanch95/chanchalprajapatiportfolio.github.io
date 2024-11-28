@@ -5,7 +5,11 @@ module.exports = {
     './index.html', 
   ],
   theme: {
-    extend: {},
+    extend: {
+      screens: {
+        'max-sm': { 'max': '640px' }, // For screens up to 640px
+      },
+    },
   },
   plugins: [],
 }
